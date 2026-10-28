@@ -20,4 +20,3 @@ SellerSprite MCP市场关键词调研Skill——以可选历史月份固定采�
 - **发布机制**：[RELEASE.md](RELEASE.md)；`VERSION` 为唯一版本源，`scripts/package_release.py` 负责构建/校验安装包和 `SHA256SUMS`
 
 > 本目录为展开源码，供审查与维护；分发请使用 `.skill` 安装包（两者内容一致，并由 `SHA256SUMS` 审计）。
-

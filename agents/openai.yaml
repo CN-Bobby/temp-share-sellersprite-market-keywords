@@ -1,0 +1,11 @@
+interface:
+  display_name: "SellerSprite 市场关键词调研"
+  short_description: "历史三页词池、当前ASIN双矩阵与带年月轴的24月趋势报告"
+  default_prompt: "Use $sellersprite-market-keywords to research this Amazon market and produce a Chinese Excel report."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "sellersprite-mcp"
+      description: "SellerSprite keyword, product, traffic, and ABA trend data"
+policy:
+  allow_implicit_invocation: true
